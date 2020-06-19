@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "airbnb-typescript", 
+    "prettier/@typescript-eslint"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "ignorePatterns": ["src/serviceWorker.ts"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "lines-around-directive": [0],
+    "no-spaced-func": [0],
+    "react/jsx-filename-extension": [0],
+    "react/prop-types": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "jsx-a11y/click-events-have-key-events": [0],
+    "arrow-parens": ["error", "as-needed"],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "func-names": ["warn", "as-needed", { "generators": "never" }],
+    "no-nested-ternary": [0],
+    "import/prefer-default-export": [0],
+    "no-param-reassign": ["error", { "props": false }],
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    "implicit-arrow-linebreak": [0],
+    "padding-line-between-statements": [
+      "error",
+      { 
+        "blankLine": "always", 
+        "prev": "var", 
+        "next": "return" 
+      }
+    ],
+    "no-unused-expressions": "off",
+    "jsx-quotes": ["error", "prefer-single"],
+    "@typescript-eslint/no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+    "react/jsx-one-expression-per-line": [0, { "allow": "single-child" }],
+    "operator-linebreak": [0],
+    "object-curly-newline": ["error", { "multiline": true }]
+  },
+  "settings": {
+    "import/parser": {
+      "typescript-eslint-parser": [ ".ts", ".tsx" ]
+    },
+    "import/resolver": {
+      "eslint-import-resolver-typescript": true,
+      "typescript": {}
+    }
+  }
+}
