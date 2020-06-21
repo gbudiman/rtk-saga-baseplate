@@ -5,6 +5,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 import axios from 'axios';
 import './index.scss';
 import remote from 'utils/remote';
+import { toast } from 'react-toastify';
 import App from './app/App';
 import * as serviceWorker from './serviceWorker';
 import persistedStore from './app/store';
@@ -13,6 +14,7 @@ const { store, persistor } = persistedStore();
 const { apiUrl } = remote();
 
 axios.defaults.baseURL = apiUrl;
+toast.configure({ position: 'top-right' });
 
 ReactDOM.render(
   <Provider store={store}>
