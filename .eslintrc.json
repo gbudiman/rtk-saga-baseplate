@@ -51,7 +51,9 @@
     "@typescript-eslint/no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
     "react/jsx-one-expression-per-line": [0, { "allow": "single-child" }],
     "operator-linebreak": [0],
-    "object-curly-newline": ["error", { "multiline": true }]
+    "object-curly-newline": ["error", { "multiline": true }],
+    "function-paren-newline": [0],
+    "react/jsx-curly-newline": [0]
   },
   "settings": {
     "import/parser": {
