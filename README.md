@@ -6,6 +6,11 @@ Tired of cherry-picking and configuring boilerplate packages? #MeToo
 
 Clone and `yarn`
 
+## Philosophy
+
+This repository is highly-opinionated.
+> There is one obvious way to achieve what you want efficiently. 
+
 ## What's Included
 
 Major Libraries:
