@@ -3,10 +3,10 @@
 ## What's Included
 
 Major Libraries:
-- React (obviously)
-- ReduxToolkit
-- ReduxSaga
-- TypeScript
+- readt (obviously)
+- @reduxjs/toolkit
+- redux-saga
+- typescript
 
 Support Libraries:
 - axios
@@ -14,15 +14,15 @@ Support Libraries:
 - date-fns
 - lodash
 - node-sass
-- ReduxPersist
-- ReactRouter
+- redux-persist
+- react-router
 
 UI Libraries:
-- FramerMotion
-- ReactSelect
-- ReactToggle
-- ReactDatePicker
-- Toast
+- framer-motion
+- react-select
+- react-toggle
+- react-datepicker
+- react-toastify
 
 Linter:
 - ESLint & Prettier AirBnB-style
@@ -30,3 +30,6 @@ Linter:
 Custom Helper:
 - Typed `useSelector`
 - Saga helper
+
+All types included.
+TSConfig pre-configured.
