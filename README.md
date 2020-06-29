@@ -2,6 +2,10 @@
 
 Tired of cherry-picking and configuring boilerplate packages? #MeToo
 
+## Install
+
+Clone and `yarn`
+
 ## What's Included
 
 Major Libraries:
@@ -32,6 +36,18 @@ Linter:
 Custom Helper:
 - Typed `useSelector`
 - Saga helper
+- Root reducer pre-configured
+- Root saga pre-configured 
 
 All types included.
+
 TSConfig pre-configured.
+
+## Directory Structure
+- `api` (Sagas)
+- `app` (RootReducer, RootSaga, Router)
+- `components`
+- `hooks` (custom hooks)
+- `slices` ([What is a slice?](https://github.com/gbudiman/rtk-saga-baseplate))
+- `types`
+- `utils`
