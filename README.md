@@ -1,9 +1,11 @@
 # ReduxToolkit-Saga Baseplate
 
+Tired of cherry-picking and configuring boilerplate packages? #MeToo
+
 ## What's Included
 
 Major Libraries:
-- readt (obviously)
+- react (obviously)
 - @reduxjs/toolkit
 - redux-saga
 - typescript
