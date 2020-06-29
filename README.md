@@ -48,6 +48,6 @@ TSConfig pre-configured.
 - `app` (RootReducer, RootSaga, Router)
 - `components`
 - `hooks` (custom hooks)
-- `slices` ([What is a slice?](https://github.com/gbudiman/rtk-saga-baseplate))
+- `slices` ([What is a slice?](https://redux-toolkit.js.org/tutorials/intermediate-tutorial#understanding-slices))
 - `types`
 - `utils`
